@@ -5,4 +5,4 @@ def is_funny_string(s):
         reversed_diff = abs(ord(reversed_s[i]) - ord(reversed_s[i-1]))
         if original_diff != reversed_diff:
             return "Not Funny"
-    return "Funny"
+    return 'Funny'

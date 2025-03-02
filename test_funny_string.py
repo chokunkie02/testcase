@@ -1,4 +1,5 @@
 import unittest
+
 from funny_string import is_funny_string
 
 class TestFunnyString(unittest.TestCase):
